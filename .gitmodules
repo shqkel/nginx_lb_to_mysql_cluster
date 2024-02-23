@@ -1,0 +1,3 @@
+[submodule "simple-cqrs-app"]
+	path = simple-cqrs-app
+	url = https://github.com/shqkel/simple-cqrs-app.git

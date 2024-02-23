@@ -11,9 +11,9 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
 
-  simple-app: 
-    image: shqkel/simple-app
-    container_name: simple-app
+  simple-cqrs-app: 
+    image: shqkel/simple-cqrs-app
+    container_name: simple-cqrs-app
     ports: 
       - 8080:8080
 
